@@ -4,7 +4,7 @@ total_bill = input("What was the total Bill? $ ")
 total_people = input("How many people to split the bill? ")
 tip = input("What percentage of tip would you like to give? 10, 12, or 15? ")
 
-#returns 24.908, price of each person
+#returns price of each person 
 split = (float(total_bill) / int(total_people))
 
 #returns 0.xx - the % value of tax
